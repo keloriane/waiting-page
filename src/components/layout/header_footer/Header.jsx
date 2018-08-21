@@ -60,16 +60,8 @@ import { TweenMax } from "gsap/TweenMax";
         <div className="header_logo_title"> Hive Co-op</div>
       </div>
 
-      <IconButton
-        aria-label="Menu"
-        color="inherit"
-        style={{
-          justifyContent:'flex-end'
-        }}
-        onClick={ () => this.toggleDrawer(true)}
-      >
-        <MenuIcon />
-      </IconButton>
+      
+   
       <SideDrawer
         open={this.state.drawerOpen}
         onClose={(value)=>this.toggleDrawer(value)}
