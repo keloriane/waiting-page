@@ -1,0 +1,17 @@
+.item-container{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.section-content{
+    margin-top: 250px;
+}
+
+.item-container{
+    margin-top: 150px;
+}
+.services-container{
+    display: flex;
+    flex-direction: row;
+}

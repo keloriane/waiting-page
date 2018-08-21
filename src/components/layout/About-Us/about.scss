@@ -1,0 +1,29 @@
+.section-content {
+    display: flex;
+    justify-content: center;
+    .text-content{
+    max-width: 500px;
+        .text-about-us{
+            font-size: 18px;
+            line-height: 172%;
+            
+
+        }
+
+    
+    }
+    .image-container{
+        overflow: hidden;
+        margin-top: 100px;
+        margin-left: 60px;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width:1000px){
+    .section-content{
+        flex-direction: column;
+    }
+}
